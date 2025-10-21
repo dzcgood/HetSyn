@@ -1,0 +1,127 @@
+Training parameters
+    dropout_rate: [0.2, 0.2]
+    seed: 0
+    thr: 1.0
+    learning_rate: 0.002
+    weight_decay: 0.004
+    epochs: 100
+    batch_size: 32
+    accumulation_steps: 1
+    warmup_ratio: 0.05
+    plateau_ratio: 0.05
+    data_path: /home/Ai3023244135/het/SHD
+    no_clip: False
+
+Model parameters
+    self_rec: True
+    learning_rho: True
+    bias: False
+    n_in: 700
+    n_hid: [128, 64]
+    n_out: 20
+    dt: 0.001
+    learning_w: True
+    rho_l: 0.0
+    rho_h: 1.0
+    thr: 1.0
+    tau_r: 0.02
+epoch:   0, Train Loss: 2.88, Train Acc: 0.2418, Valid Acc: 0.4536, Best Acc: 0.4536
+epoch:   1, Train Loss: 1.36, Train Acc: 0.5591, Valid Acc: 0.6789, Best Acc: 0.6789
+epoch:   2, Train Loss: 0.84, Train Acc: 0.7201, Valid Acc: 0.7248, Best Acc: 0.7248
+epoch:   3, Train Loss: 0.56, Train Acc: 0.8104, Valid Acc: 0.7906, Best Acc: 0.7906
+epoch:   4, Train Loss: 0.44, Train Acc: 0.8545, Valid Acc: 0.7889, Best Acc: 0.7906
+epoch:   5, Train Loss: 0.36, Train Acc: 0.8785, Valid Acc: 0.8732, Best Acc: 0.8732
+epoch:   6, Train Loss: 0.30, Train Acc: 0.9029, Valid Acc: 0.8114, Best Acc: 0.8732
+epoch:   7, Train Loss: 0.26, Train Acc: 0.9137, Valid Acc: 0.7898, Best Acc: 0.8732
+epoch:   8, Train Loss: 0.25, Train Acc: 0.9167, Valid Acc: 0.7995, Best Acc: 0.8732
+epoch:   9, Train Loss: 0.21, Train Acc: 0.9320, Valid Acc: 0.8697, Best Acc: 0.8732
+epoch:  10, Train Loss: 0.21, Train Acc: 0.9306, Valid Acc: 0.8640, Best Acc: 0.8732
+epoch:  11, Train Loss: 0.15, Train Acc: 0.9487, Valid Acc: 0.8392, Best Acc: 0.8732
+epoch:  12, Train Loss: 0.16, Train Acc: 0.9440, Valid Acc: 0.8644, Best Acc: 0.8732
+epoch:  13, Train Loss: 0.12, Train Acc: 0.9595, Valid Acc: 0.8578, Best Acc: 0.8732
+epoch:  14, Train Loss: 0.11, Train Acc: 0.9631, Valid Acc: 0.8604, Best Acc: 0.8732
+epoch:  15, Train Loss: 0.11, Train Acc: 0.9615, Valid Acc: 0.8984, Best Acc: 0.8984
+epoch:  16, Train Loss: 0.12, Train Acc: 0.9568, Valid Acc: 0.8759, Best Acc: 0.8984
+epoch:  17, Train Loss: 0.09, Train Acc: 0.9682, Valid Acc: 0.8931, Best Acc: 0.8984
+epoch:  18, Train Loss: 0.06, Train Acc: 0.9778, Valid Acc: 0.8644, Best Acc: 0.8984
+epoch:  19, Train Loss: 0.09, Train Acc: 0.9701, Valid Acc: 0.8989, Best Acc: 0.8989
+epoch:  20, Train Loss: 0.05, Train Acc: 0.9820, Valid Acc: 0.9064, Best Acc: 0.9064
+epoch:  21, Train Loss: 0.06, Train Acc: 0.9831, Valid Acc: 0.9095, Best Acc: 0.9095
+epoch:  22, Train Loss: 0.05, Train Acc: 0.9809, Valid Acc: 0.8958, Best Acc: 0.9095
+epoch:  23, Train Loss: 0.04, Train Acc: 0.9885, Valid Acc: 0.9112, Best Acc: 0.9112
+epoch:  24, Train Loss: 0.03, Train Acc: 0.9899, Valid Acc: 0.9148, Best Acc: 0.9148
+epoch:  25, Train Loss: 0.02, Train Acc: 0.9949, Valid Acc: 0.9143, Best Acc: 0.9148
+epoch:  26, Train Loss: 0.01, Train Acc: 0.9968, Valid Acc: 0.8732, Best Acc: 0.9148
+epoch:  27, Train Loss: 0.02, Train Acc: 0.9912, Valid Acc: 0.8936, Best Acc: 0.9148
+epoch:  28, Train Loss: 0.02, Train Acc: 0.9935, Valid Acc: 0.9072, Best Acc: 0.9148
+epoch:  29, Train Loss: 0.01, Train Acc: 0.9977, Valid Acc: 0.9095, Best Acc: 0.9148
+epoch:  30, Train Loss: 0.01, Train Acc: 0.9973, Valid Acc: 0.9028, Best Acc: 0.9148
+epoch:  31, Train Loss: 0.00, Train Acc: 0.9985, Valid Acc: 0.9183, Best Acc: 0.9183
+epoch:  32, Train Loss: 0.00, Train Acc: 0.9993, Valid Acc: 0.9086, Best Acc: 0.9183
+epoch:  33, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9099, Best Acc: 0.9183
+epoch:  34, Train Loss: 0.00, Train Acc: 0.9995, Valid Acc: 0.9108, Best Acc: 0.9183
+epoch:  35, Train Loss: 0.00, Train Acc: 0.9994, Valid Acc: 0.9187, Best Acc: 0.9187
+epoch:  36, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9125, Best Acc: 0.9187
+epoch:  37, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9143, Best Acc: 0.9187
+epoch:  38, Train Loss: 0.00, Train Acc: 0.9996, Valid Acc: 0.9152, Best Acc: 0.9187
+epoch:  39, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9170, Best Acc: 0.9187
+epoch:  40, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9139, Best Acc: 0.9187
+epoch:  41, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9152, Best Acc: 0.9187
+epoch:  42, Train Loss: 0.00, Train Acc: 0.9996, Valid Acc: 0.9170, Best Acc: 0.9187
+epoch:  43, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9148, Best Acc: 0.9187
+epoch:  44, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9152, Best Acc: 0.9187
+epoch:  45, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9165, Best Acc: 0.9187
+epoch:  46, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9086, Best Acc: 0.9187
+epoch:  47, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9152, Best Acc: 0.9187
+epoch:  48, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9143, Best Acc: 0.9187
+epoch:  49, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9112, Best Acc: 0.9187
+epoch:  50, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9152, Best Acc: 0.9187
+epoch:  51, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9112, Best Acc: 0.9187
+epoch:  52, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9130, Best Acc: 0.9187
+epoch:  53, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9130, Best Acc: 0.9187
+epoch:  54, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9121, Best Acc: 0.9187
+epoch:  55, Train Loss: 0.00, Train Acc: 0.9996, Valid Acc: 0.9218, Best Acc: 0.9218
+epoch:  56, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9214, Best Acc: 0.9218
+epoch:  57, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9139, Best Acc: 0.9218
+epoch:  58, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9143, Best Acc: 0.9218
+epoch:  59, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9165, Best Acc: 0.9218
+epoch:  60, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9183, Best Acc: 0.9218
+epoch:  61, Train Loss: 0.00, Train Acc: 0.9996, Valid Acc: 0.9170, Best Acc: 0.9218
+epoch:  62, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9148, Best Acc: 0.9218
+epoch:  63, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9161, Best Acc: 0.9218
+epoch:  64, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9121, Best Acc: 0.9218
+epoch:  65, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9161, Best Acc: 0.9218
+epoch:  66, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9178, Best Acc: 0.9218
+epoch:  67, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9143, Best Acc: 0.9218
+epoch:  68, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9139, Best Acc: 0.9218
+epoch:  69, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9161, Best Acc: 0.9218
+epoch:  70, Train Loss: 0.00, Train Acc: 0.9996, Valid Acc: 0.9192, Best Acc: 0.9218
+epoch:  71, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9170, Best Acc: 0.9218
+epoch:  72, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9112, Best Acc: 0.9218
+epoch:  73, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9050, Best Acc: 0.9218
+epoch:  74, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9139, Best Acc: 0.9218
+epoch:  75, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9121, Best Acc: 0.9218
+epoch:  76, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9143, Best Acc: 0.9218
+epoch:  77, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9192, Best Acc: 0.9218
+epoch:  78, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9174, Best Acc: 0.9218
+epoch:  79, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9187, Best Acc: 0.9218
+epoch:  80, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9201, Best Acc: 0.9218
+epoch:  81, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9121, Best Acc: 0.9218
+epoch:  82, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9165, Best Acc: 0.9218
+epoch:  83, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9156, Best Acc: 0.9218
+epoch:  84, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9170, Best Acc: 0.9218
+epoch:  85, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9156, Best Acc: 0.9218
+epoch:  86, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9214, Best Acc: 0.9218
+epoch:  87, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9143, Best Acc: 0.9218
+epoch:  88, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9161, Best Acc: 0.9218
+epoch:  89, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9156, Best Acc: 0.9218
+epoch:  90, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9165, Best Acc: 0.9218
+epoch:  91, Train Loss: 0.00, Train Acc: 1.0000, Valid Acc: 0.9209, Best Acc: 0.9218
+epoch:  92, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9218, Best Acc: 0.9218
+epoch:  93, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9236, Best Acc: 0.9236
+epoch:  94, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9187, Best Acc: 0.9236
+epoch:  95, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9125, Best Acc: 0.9236
+epoch:  96, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9117, Best Acc: 0.9236
+epoch:  97, Train Loss: 0.00, Train Acc: 0.9998, Valid Acc: 0.9178, Best Acc: 0.9236
+epoch:  98, Train Loss: 0.00, Train Acc: 0.9996, Valid Acc: 0.9121, Best Acc: 0.9236
+epoch:  99, Train Loss: 0.00, Train Acc: 0.9999, Valid Acc: 0.9077, Best Acc: 0.9236
