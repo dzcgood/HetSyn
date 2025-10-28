@@ -220,8 +220,7 @@ class SpikeLayer(nn.Module):
 
         Ireset = self.rho_r*hIreset + self.thr*hz
         v = x - Ireset
-        z = self.spike_fun(v, thr=self.thr, scale=self.sg_scale,
-                           width=self.sg_width)
+        z = self.spike_fun(v - self.thr)
 
         return (z, Ireset)
 
